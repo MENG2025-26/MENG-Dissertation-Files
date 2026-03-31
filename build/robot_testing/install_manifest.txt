@@ -1,0 +1,15 @@
+/home/cam/ros2_ws/src/install/robot_testing/share/ament_index/resource_index/package_run_dependencies/robot_testing
+/home/cam/ros2_ws/src/install/robot_testing/share/ament_index/resource_index/parent_prefix_path/robot_testing
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/environment/ament_prefix_path.sh
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/environment/ament_prefix_path.dsv
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/environment/path.sh
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/environment/path.dsv
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/local_setup.bash
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/local_setup.sh
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/local_setup.zsh
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/local_setup.dsv
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/package.dsv
+/home/cam/ros2_ws/src/install/robot_testing/share/ament_index/resource_index/packages/robot_testing
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/cmake/robot_testingConfig.cmake
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/cmake/robot_testingConfig-version.cmake
+/home/cam/ros2_ws/src/install/robot_testing/share/robot_testing/package.xml

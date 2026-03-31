@@ -1,0 +1,387 @@
+[0.118s] Invoking command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cam/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/cam/ros2_ws/src/install/realsense2_camera_msgs
+[0.592s] -- The C compiler identification is GNU 13.3.0
+[1.111s] -- The CXX compiler identification is GNU 13.3.0
+[1.159s] -- Detecting C compiler ABI info
+[1.405s] -- Detecting C compiler ABI info - done
+[1.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.437s] -- Detecting C compile features
+[1.438s] -- Detecting C compile features - done
+[1.459s] -- Detecting CXX compiler ABI info
+[1.744s] -- Detecting CXX compiler ABI info - done
+[1.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.760s] -- Detecting CXX compile features
+[1.761s] -- Detecting CXX compile features - done
+[1.771s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.161s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.499s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.884s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.898s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.959s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.006s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[4.844s] -- Found ament_cmake_cppcheck: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[4.860s] -- Found ament_cmake_cpplint: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[4.869s] -- Found ament_cmake_uncrustify: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[4.878s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[6.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.522s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.220s] -- Found PythonExtra: /usr/bin/python3  
+[12.523s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[12.949s] -- Found ament_cmake_flake8: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[12.976s] -- Found ament_cmake_pep257: 0.17.4 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[13.023s] -- Configuring done (12.9s)
+[13.378s] -- Generating done (0.3s)
+[13.424s] -- Build files have been written to: /home/cam/ros2_ws/src/build/realsense2_camera_msgs
+[13.468s] Invoked command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cam/ros2_ws/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/cam/ros2_ws/src/install/realsense2_camera_msgs
+[13.470s] Invoking command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cam/ros2_ws/src/build/realsense2_camera_msgs -- -j4 -l4
+[13.783s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.906s] [  1%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[14.926s] running egg_info
+[14.928s] creating realsense2_camera_msgs.egg-info
+[15.042s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[15.043s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[15.043s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[15.043s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[15.461s] [  1%] Built target realsense2_camera_msgs__rosidl_generator_type_description
+[15.519s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[15.519s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[15.542s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.614s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.804s] [  4%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[18.689s] [  5%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__description.c.o[0m
+[18.714s] [  6%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[18.832s] [  8%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[18.946s] [  8%] Built target realsense2_camera_msgs__cpp
+[19.025s] [  9%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__description.c.o[0m
+[19.062s] [ 10%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[19.085s] [ 12%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[19.180s] [ 13%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__description.c.o[0m
+[19.295s] [ 14%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[19.330s] [ 16%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[19.437s] [ 17%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__description.c.o[0m
+[19.488s] [ 18%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[19.613s] [ 20%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__description.c.o[0m
+[19.627s] [ 21%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[19.767s] [ 22%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o[0m
+[19.812s] [ 24%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[20.086s] [ 25%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so[0m
+[20.402s] [ 25%] Built target realsense2_camera_msgs__rosidl_generator_c
+[20.458s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.460s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[20.473s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.492s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.914s] [ 32%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[23.224s] [ 33%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[23.288s] [ 35%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[23.558s] [ 36%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[23.583s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[23.868s] [ 39%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[23.953s] [ 40%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[24.092s] [ 41%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[24.103s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[24.207s] [ 44%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[24.210s] [ 45%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[24.473s] [ 47%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o[0m
+[24.481s] [ 48%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so[0m
+[24.795s] [ 50%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[24.867s] [ 50%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[24.942s] [ 51%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[25.073s] [ 51%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[25.118s] [ 52%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.660s] [ 54%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[27.042s] [ 55%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[27.261s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[27.791s] [ 58%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[29.005s] [ 59%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[29.280s] [ 60%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[30.479s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[30.538s] [ 63%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[30.989s] [ 64%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[31.382s] [ 66%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[32.435s] [ 67%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[33.034s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[33.570s] [ 70%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[34.001s] [ 71%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o[0m
+[34.366s] [ 72%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[34.907s] [ 74%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o[0m
+[35.911s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[36.227s] [ 77%] [32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o[0m
+[36.536s] [ 78%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so[0m
+[37.124s] [ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[37.228s] [ 79%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[37.942s] [ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[38.512s] [ 81%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[39.192s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[39.671s] [ 82%] [32m[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[39.965s] [ 82%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[40.041s] [ 82%] Built target realsense2_camera_msgs
+[40.113s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[42.478s] [ 83%] Built target realsense2_camera_msgs__py
+[42.558s] [ 85%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o[0m
+[43.121s] [ 86%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o[0m
+[43.533s] [ 87%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o[0m
+[44.053s] [ 89%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o[0m
+[44.436s] [ 90%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o[0m
+[44.861s] [ 91%] [32m[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_py.so[0m
+[45.084s] [ 91%] Built target realsense2_camera_msgs__rosidl_generator_py
+[45.145s] [ 93%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[45.494s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[45.598s] [ 94%] Built target realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c
+[45.650s] [ 95%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[45.996s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so[0m
+[46.097s] [ 97%] Built target realsense2_camera_msgs_s__rosidl_typesupport_c
+[46.147s] [ 98%] [32mBuilding C object CMakeFiles/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[46.446s] [100%] [32m[1mLinking C shared module rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[46.548s] [100%] Built target realsense2_camera_msgs_s__rosidl_typesupport_introspection_c
+[46.598s] Invoked command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cam/ros2_ws/src/build/realsense2_camera_msgs -- -j4 -l4
+[46.600s] Invoking command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cam/ros2_ws/src/build/realsense2_camera_msgs
+[46.622s] -- Install configuration: ""
+[46.623s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs
+[46.623s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.json
+[46.624s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.json
+[46.624s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.json
+[46.624s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.json
+[46.625s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.json
+[46.625s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.625s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.625s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h
+[46.626s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.626s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c
+[46.626s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h
+[46.626s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__description.c
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h
+[46.627s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.h
+[46.628s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h
+[46.628s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h
+[46.628s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[46.628s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.629s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[46.629s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__description.c
+[46.629s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h
+[46.629s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h
+[46.629s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h
+[46.630s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c
+[46.630s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__description.c
+[46.630s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__description.c
+[46.631s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h
+[46.631s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h
+[46.631s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.c
+[46.631s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[46.632s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.h
+[46.632s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[46.632s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h
+[46.632s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h
+[46.632s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h
+[46.633s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c
+[46.633s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__functions.h
+[46.633s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c
+[46.633s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__description.c
+[46.633s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[46.634s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h
+[46.634s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.h
+[46.634s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh
+[46.634s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv
+[46.634s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so
+[46.635s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""
+[46.636s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.636s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.636s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.637s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[46.637s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.637s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.637s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.637s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[46.638s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[46.638s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[46.638s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[46.638s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[46.639s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[46.639s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.639s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.639s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.640s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h
+[46.640s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c
+[46.640s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.640s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.641s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.641s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.c
+[46.641s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[46.641s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[46.641s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c
+[46.642s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c
+[46.642s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[46.642s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[46.642s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c
+[46.642s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so
+[46.643s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[46.643s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so
+[46.644s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""
+[46.644s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.644s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.644s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp
+[46.645s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.645s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp
+[46.645s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp
+[46.645s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp
+[46.646s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp
+[46.646s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.646s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[46.646s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp
+[46.647s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rgbd.hpp
+[46.647s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp
+[46.647s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp
+[46.647s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.647s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[46.648s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp
+[46.648s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__traits.hpp
+[46.648s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp
+[46.649s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp
+[46.649s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp
+[46.649s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp
+[46.649s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp
+[46.649s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp
+[46.650s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp
+[46.650s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__struct.hpp
+[46.650s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp
+[46.650s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__builder.hpp
+[46.651s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp
+[46.651s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp
+[46.651s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp
+[46.652s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.652s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.652s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.652s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[46.653s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps
+[46.653s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.653s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.653s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.653s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[46.653s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[46.653s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[46.654s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[46.654s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps
+[46.654s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[46.654s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[46.654s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs
+[46.655s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv
+[46.655s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail
+[46.655s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp
+[46.655s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[46.655s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg
+[46.655s] -- Up-to-date: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail
+[46.655s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[46.656s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp
+[46.657s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[46.657s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[46.657s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[46.658s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so
+[46.658s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[46.659s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh
+[46.660s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv
+[46.661s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info
+[46.662s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/dependency_links.txt
+[46.664s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/top_level.txt
+[46.664s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/SOURCES.txt
+[46.666s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs-4.55.1-py3.12.egg-info/PKG-INFO
+[46.666s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/_device_info_s.c
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/__init__.py
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/_device_info.py
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg
+[46.667s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_rgbd.py
+[46.670s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_extrinsics.py
+[46.670s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_rgbd_s.c
+[46.670s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/__init__.py
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_imu_info_s.c
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_metadata.py
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_imu_info.py
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_extrinsics_s.c
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_metadata_s.c
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so
+[46.671s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/__init__.py
+[46.674s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[46.674s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c
+[46.799s] Listing '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs'...
+[46.799s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/__init__.py'...
+[46.799s] Listing '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg'...
+[46.799s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/__init__.py'...
+[46.800s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_extrinsics.py'...
+[46.800s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_imu_info.py'...
+[46.800s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_metadata.py'...
+[46.800s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/msg/_rgbd.py'...
+[46.800s] Listing '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv'...
+[46.800s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/__init__.py'...
+[46.801s] Compiling '/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/srv/_device_info.py'...
+[46.818s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so
+[46.818s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[46.819s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so
+[46.820s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[46.820s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so
+[46.821s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/python3.12/site-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.so" to ""
+[46.825s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+[46.825s] -- Set non-toolchain portion of runtime path of "/home/cam/ros2_ws/src/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""
+[46.825s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.idl
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg
+[46.826s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/RGBD.msg
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs
+[46.827s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh
+[46.828s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh
+[46.829s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv
+[46.829s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv
+[46.829s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs
+[46.829s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake
+[46.830s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[46.830s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[46.831s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[46.831s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[46.831s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[46.832s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake
+[46.832s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[46.833s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake
+[46.835s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[46.835s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[46.835s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[46.836s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[46.836s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake
+[46.836s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[46.836s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake
+[46.836s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[46.837s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[46.837s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.837s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.837s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[46.838s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[46.838s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[46.838s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[46.839s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake
+[46.839s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake
+[46.840s] -- Installing: /home/cam/ros2_ws/src/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml
+[46.845s] Invoked command in '/home/cam/ros2_ws/src/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cam/ros2_ws/src/build/realsense2_camera_msgs
