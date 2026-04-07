@@ -1,0 +1,2 @@
+[console_scripts]
+encoder_node = robot_testing.encoder_node_three:main

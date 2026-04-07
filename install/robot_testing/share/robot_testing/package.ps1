@@ -111,6 +111,7 @@ function colcon_package_source_powershell_script {
 $env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.FullName
 
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/robot_testing/hook/cmake_prefix_path.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/robot_testing/local_setup.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/robot_testing/hook/pythonpath.ps1"
+colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/robot_testing/hook/ament_prefix_path.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX

@@ -1,0 +1,38 @@
+[2.225s] Invoking command in '/home/cam/ros2_ws/src/robot_testing': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cam/ros2_ws/src/build/robot_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_testing build --build-base /home/cam/ros2_ws/src/build/robot_testing/build install --record /home/cam/ros2_ws/src/build/robot_testing/install.log --single-version-externally-managed install_data
+[2.711s] running egg_info
+[2.711s] creating ../build/robot_testing/robot_testing.egg-info
+[2.741s] writing ../build/robot_testing/robot_testing.egg-info/PKG-INFO
+[2.741s] writing dependency_links to ../build/robot_testing/robot_testing.egg-info/dependency_links.txt
+[2.742s] writing entry points to ../build/robot_testing/robot_testing.egg-info/entry_points.txt
+[2.742s] writing requirements to ../build/robot_testing/robot_testing.egg-info/requires.txt
+[2.742s] writing top-level names to ../build/robot_testing/robot_testing.egg-info/top_level.txt
+[2.742s] writing manifest file '../build/robot_testing/robot_testing.egg-info/SOURCES.txt'
+[2.820s] reading manifest file '../build/robot_testing/robot_testing.egg-info/SOURCES.txt'
+[2.821s] adding license file 'LICENSE'
+[2.821s] writing manifest file '../build/robot_testing/robot_testing.egg-info/SOURCES.txt'
+[2.821s] running build
+[2.822s] running build_py
+[2.822s] creating /home/cam/ros2_ws/src/build/robot_testing/build
+[2.822s] creating /home/cam/ros2_ws/src/build/robot_testing/build/lib
+[2.822s] creating /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing
+[2.822s] copying robot_testing/__init__.py -> /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing
+[2.822s] copying robot_testing/encoder_node_three.py -> /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing
+[2.822s] copying robot_testing/encoder_node.py -> /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing
+[2.823s] running install
+[2.832s] running install_lib
+[2.862s] creating /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing
+[2.862s] copying /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing/__init__.py -> /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing
+[2.863s] copying /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing/encoder_node_three.py -> /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing
+[2.863s] copying /home/cam/ros2_ws/src/build/robot_testing/build/lib/robot_testing/encoder_node.py -> /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing
+[2.863s] byte-compiling /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing/__init__.py to __init__.cpython-312.pyc
+[2.864s] byte-compiling /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing/encoder_node_three.py to encoder_node_three.cpython-312.pyc
+[2.865s] byte-compiling /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing/encoder_node.py to encoder_node.cpython-312.pyc
+[2.866s] running install_data
+[2.866s] copying resource/robot_testing -> /home/cam/ros2_ws/src/install/robot_testing/share/ament_index/resource_index/packages
+[2.866s] copying package.xml -> /home/cam/ros2_ws/src/install/robot_testing/share/robot_testing
+[2.866s] running install_egg_info
+[2.916s] Copying ../build/robot_testing/robot_testing.egg-info to /home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages/robot_testing-0.0.0-py3.12.egg-info
+[2.917s] running install_scripts
+[3.155s] Installing encoder_node script to /home/cam/ros2_ws/src/install/robot_testing/lib/robot_testing
+[3.155s] writing list of installed files to '/home/cam/ros2_ws/src/build/robot_testing/install.log'
+[3.255s] Invoked command in '/home/cam/ros2_ws/src/robot_testing' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cam/ros2_ws/src/build/robot_testing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cam/ros2_ws/src/install/robot_testing/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_testing build --build-base /home/cam/ros2_ws/src/build/robot_testing/build install --record /home/cam/ros2_ws/src/build/robot_testing/install.log --single-version-externally-managed install_data
