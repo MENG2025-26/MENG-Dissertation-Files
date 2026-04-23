@@ -1,9 +1,0 @@
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/uninstall.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/robot_testing_uninstall.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/test.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/edit_cache.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/rebuild_cache.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/list_install_components.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/install.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/install/local.dir
-/home/cam/ros2_ws/src/build/robot_testing/CMakeFiles/install/strip.dir
